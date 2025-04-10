@@ -1,0 +1,33 @@
+{
+  "name": "ts-prompt-syntax",
+  "displayName": "TS/JS Prompt Syntax Highlighting",
+  "description": "Support for markdown and xml tags highlighting in Typescript/Javascript template strings",
+  "version": "0.5.0",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "ts-prompt-template-string",
+        "path": "./syntaxes/prompt-template-string.tm.json",
+        "injectTo": [
+          "source.ts",
+          "source.tsx",
+          "source.js",
+          "source.jsx"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.xml": "xml",
+          "meta.embedded.markdown": "markdown"
+        }
+      }
+    ]
+  },
+  "extensionDependencies": [
+    "redhat.vscode-xml"
+  ]
+}
