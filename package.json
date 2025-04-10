@@ -3,7 +3,7 @@
   "publisher": "pAIrprog",
   "displayName": "TS/JS Prompt Syntax Highlighting",
   "description": "Support for markdown and xml tags highlighting in Typescript/Javascript template strings",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/pAIrprogio/vscode-ts-prompt-syntax"
